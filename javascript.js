@@ -17,7 +17,8 @@ Rock.addEventListener("click", playRound);
 Paper.addEventListener("click", playRound);
 Scissors.addEventListener("click", playRound);
 
-document.getElementById("score").innerHTML = `player:${playerScore} computer:${computerScore}`;
+document.querySelector('.player').textContent += `Player: ${playerScore}`;
+document.querySelector('.computer').textContent += `Computer: ${computerScore}`;
 
 function score () {
 
@@ -32,9 +33,9 @@ function score () {
         playerScore = 0;
         computerScore = 0;
     }
-    
-    document.getElementById("score").innerHTML = `player:${playerScore} computer:${computerScore}`;
-    
+
+    document.querySelector('.player').textContent += `Player: ${playerScore}`;
+    document.querySelector('.computer').textContent += `Computer: ${computerScore}`;
 
 }
 

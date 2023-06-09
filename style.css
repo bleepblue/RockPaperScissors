@@ -1,0 +1,52 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd714;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px;
+}
+
+button {
+
+    height:250px;
+    width:250px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 20px solid #eb0000;;
+
+}
+
+#score {
+    justify-content: center;
+    display: flex;
+    gap: 180px;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    padding-left: 12px;
+}
